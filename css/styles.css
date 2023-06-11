@@ -11732,3 +11732,18 @@ html {
     left: -2vw;
   }
 }
+
+.pro-pic {
+  background-image: url('../assets/IMG_5943_859kb.jpeg');
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 10%;
+  transform: rotate3d(10, 21, 1, -12deg);
+}
