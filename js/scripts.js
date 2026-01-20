@@ -29,4 +29,7 @@ const xah_randomize_children_f = ((nodeX) => {
     nodeX.innerHTML = "";
     nodeX.appendChild(newNodeFrag);
 });
-xah_randomize_children_f(document.getElementById("big_list_80831"));
+const bigList = document.getElementById("big_list_80831");
+if (bigList) {
+    xah_randomize_children_f(bigList);
+}
